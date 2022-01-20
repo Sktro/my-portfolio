@@ -1,0 +1,18 @@
+.RemoteWorksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.RemoteWorksBlock {
+    height: 33vh;
+    background-color: #9cf7ff;
+}
+
+.RemoteWorksContainer button {
+    width: 150px;
+    font-weight: bold;
+}
+
+.RemoteWorksContainer h1 {
+    text-align: center;
+}

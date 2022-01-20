@@ -1,0 +1,26 @@
+.footerBlock {
+    height: 33vh;
+    background-color: #ffea70;
+}
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.socialNetwork {
+    display: flex;
+    border: solid 1px;
+    width: 280px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-device-width: 360px) {
+    .socialNetwork {
+        width: 100%;
+    }
+}
+
+.footerContainer h3 {
+    text-align: center;
+}
